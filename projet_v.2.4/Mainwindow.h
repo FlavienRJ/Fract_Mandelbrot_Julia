@@ -73,7 +73,7 @@ class JuliaWidget : public QWidget
 {
     Q_OBJECT
 public:
-    //JuliaWidget(MandelWidget* par2);
+    JuliaWidget(MandelWidget* par2);
     JuliaWidget(QRect par1,MandelWidget* par2);
     ~JuliaWidget();
 

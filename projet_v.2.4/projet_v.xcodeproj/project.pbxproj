@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		D7BA7D76DAB5DD13389D6332 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Qmake";
+			neededFileNames = (
+				);
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/frj/Documents/Code/Fract_Mandelbrot_Julia/projet_v.2.4\ -f\ \'projet_v.xcodeproj/qt_makeqmake.mak\'";
+		};
+		1D220F8B7CDCD2907587BE76 = {
+			isa = PBXFileReference;
+			name = "InfoWindow.cpp";
+			path = "InfoWindow.cpp";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A124C0B8E80E3B08B3C70BC4 = {
+			fileRef = "1D220F8B7CDCD2907587BE76";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		12803949D0F8C7B20157C843 = {
+			isa = PBXFileReference;
+			name = "JuliaWidget.cpp";
+			path = "JuliaWidget.cpp";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		53533E34993A6C1E1D83D5FB = {
+			fileRef = "12803949D0F8C7B20157C843";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EF19F05E5CD7CF54F921EBDC = {
+			isa = PBXFileReference;
+			name = "Main.cpp";
+			path = "Main.cpp";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5C0A0AD360CF52FB51307455 = {
+			fileRef = "EF19F05E5CD7CF54F921EBDC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		545657B142955F3DCD4FA379 = {
+			isa = PBXFileReference;
+			name = "Mainwindow.cpp";
+			path = "Mainwindow.cpp";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		86EAA087ED354E91009716F8 = {
+			fileRef = "545657B142955F3DCD4FA379";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0258F3E2AF5D4B9D9454AD38 = {
+			isa = PBXFileReference;
+			name = "MandelWidget.cpp";
+			path = "MandelWidget.cpp";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7A60B58A3EA12DB4C0C12780 = {
+			fileRef = "0258F3E2AF5D4B9D9454AD38";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		69B30D992F633793DDA06B6B = {
+			isa = PBXFileReference;
+			name = "Others.cpp";
+			path = "Others.cpp";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		202F21461053DA29B51E3784 = {
+			fileRef = "69B30D992F633793DDA06B6B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		05D370FC2957166CD648EB48 = {
+			isa = PBXFileReference;
+			name = "moc_Mainwindow.cpp";
+			path = "moc_Mainwindow.cpp";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1F4F928EF6114D80770A0954 = {
+			fileRef = "05D370FC2957166CD648EB48";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		903DA289BCA4D09207253E58 = {
+			isa = PBXFileReference;
+			name = "Mainwindow.h";
+			path = "Mainwindow.h";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		2FDC3AD8DC43639BFF0434EC = {
+			isa = PBXFileReference;
+			name = "projet_v.2.4.pro";
+			path = "projet_v.2.4.pro";
+			refType = 4;
+			sourceTree = "SOURCE_ROOT";
+		};
+		883D7615C4D2DE3FA1218F12 = {
+			isa = PBXGroup;
+			children = (
+				"903DA289BCA4D09207253E58");
+			name = "Headers";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		FB61758D0F0FDA4BA867C3D5 = {
+			isa = PBXGroup;
+			children = (
+				"1D220F8B7CDCD2907587BE76",
+				"12803949D0F8C7B20157C843",
+				"EF19F05E5CD7CF54F921EBDC",
+				"545657B142955F3DCD4FA379",
+				"0258F3E2AF5D4B9D9454AD38",
+				"69B30D992F633793DDA06B6B");
+			name = "Sources";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		7CABE3C80E79AD2B307756D2 = {
+			isa = PBXGroup;
+			children = (
+				"2FDC3AD8DC43639BFF0434EC");
+			name = "Sources [qmake]";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		46E892BBB6BB6952967E0561 = {
+			isa = PBXGroup;
+			children = (
+				"05D370FC2957166CD648EB48");
+			name = "Temporary Sources";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		A0A52A2ADF7A1E2A99738674 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				"A124C0B8E80E3B08B3C70BC4",
+				"53533E34993A6C1E1D83D5FB",
+				"5C0A0AD360CF52FB51307455",
+				"86EAA087ED354E91009716F8",
+				"7A60B58A3EA12DB4C0C12780",
+				"202F21461053DA29B51E3784",
+				"1F4F928EF6114D80770A0954");
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Preprocessors";
+			neededFileNames = (
+				"A124C0B8E80E3B08B3C70BC4",
+				"53533E34993A6C1E1D83D5FB",
+				"5C0A0AD360CF52FB51307455",
+				"86EAA087ED354E91009716F8",
+				"7A60B58A3EA12DB4C0C12780",
+				"202F21461053DA29B51E3784",
+				"1F4F928EF6114D80770A0954");
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/frj/Documents/Code/Fract_Mandelbrot_Julia/projet_v.2.4\ -f\ \'projet_v.xcodeproj/qt_preprocess.mak\'";
+		};
+		C29B8785722055ED95EF7B57 = {
+			buildActionMask = 2147483647;
+			files = (
+				"A124C0B8E80E3B08B3C70BC4",
+				"53533E34993A6C1E1D83D5FB",
+				"5C0A0AD360CF52FB51307455",
+				"86EAA087ED354E91009716F8",
+				"7A60B58A3EA12DB4C0C12780",
+				"202F21461053DA29B51E3784",
+				"1F4F928EF6114D80770A0954");
+			isa = PBXSourcesBuildPhase;
+			name = "Build Sources";
+		};
+		EBFB0839C8AEE93FADF07A13 = {
+			isa = PBXFileReference;
+			name = "QtGui.framework";
+			path = "/usr/local/Cellar/qt/4.8.7_2/lib/QtGui.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		C8F72BFE1C608B515B6E8E1C = {
+			fileRef = "EBFB0839C8AEE93FADF07A13";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AAF04F6AE2F3AFB7EC6BE743 = {
+			isa = PBXFileReference;
+			name = "QtCore.framework";
+			path = "/usr/local/Cellar/qt/4.8.7_2/lib/QtCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F0D1675FCAD946C99A4D1729 = {
+			fileRef = "AAF04F6AE2F3AFB7EC6BE743";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ED1E82605DD74B483AF3C982 = {
+			children = (
+				"EBFB0839C8AEE93FADF07A13",
+				"AAF04F6AE2F3AFB7EC6BE743");
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		2A1043669E6E5A7426EA502A = {
+			buildActionMask = 2147483647;
+			files = (
+				"C8F72BFE1C608B515B6E8E1C",
+				"F0D1675FCAD946C99A4D1729");
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		3787F99312C85FF0073FD7BA = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		05596AB53D8D521C69802C27 = {
+			children = (
+				"FB61758D0F0FDA4BA867C3D5",
+				"46E892BBB6BB6952967E0561",
+				"883D7615C4D2DE3FA1218F12",
+				"7CABE3C80E79AD2B307756D2",
+				"ED1E82605DD74B483AF3C982");
+			isa = PBXGroup;
+			name = "projet_v";
+			path = "";
+			refType = 4;
+			sourceTree = "<Group>";
+		};
+		29E8DDB140ECEC1EF8424A48 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			path = "projet_v.app";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		068F80C7519D0528FB08E821 = {
+			children = (
+				"29E8DDB140ECEC1EF8424A48");
+			isa = PBXGroup;
+			name = "Products";
+			refType = 4;
+		};
+		2B3090AB3DDDE7762444F76A = {
+			buildPhases = (
+				"D7BA7D76DAB5DD13389D6332",
+				"A0A52A2ADF7A1E2A99738674",
+				"C29B8785722055ED95EF7B57",
+				"2A1043669E6E5A7426EA502A",
+				"3787F99312C85FF0073FD7BA");
+			buildSettings = {
+				CC = "/usr/bin/gcc";
+				CPLUSPLUS = "/usr/bin/g++";
+				LEXFLAGS = "";
+				YACCFLAGS = "-d";
+				OTHER_REZFLAGS = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				PREBINDING = NO;
+				INFOPLIST_FILE = "Info.plist";
+				BUILD_ROOT = "/Users/frj/Documents/Code/Fract_Mandelbrot_Julia/projet_v.2.4";
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/usr/local/Cellar/qt/4.8.7_2/lib",
+						"-F/usr/local/Cellar/qt/4.8.7_2/lib",
+						"-L/usr/local/opt/openssl/lib",
+						"-L/usr/local/Cellar/qt/4.8.7_2/lib",
+						"-F/usr/local/Cellar/qt/4.8.7_2/lib");
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.4";
+				PRODUCT_NAME = "projet_v";
+			};
+			conditionalBuildSettings = {
+			};
+			dependencies = (
+				);
+			productReference = "29E8DDB140ECEC1EF8424A48";
+			shouldUseHeadermap = 1;
+			buildConfigurationList = 17B3380A4D6A7D415E7F2E1E;
+			isa = PBXNativeTarget;
+			productType = "com.apple.product-type.application";
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+ 	<key>CFBundleGetInfoString</key>
+	<string>Created by Qt/QMake</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>projet_v</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.projet_v</string>
+	<key>NOTE</key>
+	<string>This file was generated by Qt/QMake.</string>
+</dict>
+</plist>
+";
+			name = "projet_v";
+			productName = "projet_v";
+			startupPath = "<<ProjectDirectory>>";
+		};
+		4B72B24813252891014BCF61 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "projet_v";
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/4.8.7_2/lib/QtCore.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.7_2/lib/QtCore.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.7_2/lib/QtGui.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.7_2/lib/QtGui.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.7_2/include",
+					".",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Cellar/qt/4.8.7_2/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/4.8.7_2/lib",
+					"/usr/local/opt/openssl/lib",
+					"/usr/local/Cellar/qt/4.8.7_2/lib");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/4.8.7_2/lib",
+					"/usr/local/Cellar/qt/4.8.7_2/lib",
+					"/usr/local/Cellar/qt/4.8.7_2/lib");
+				INFOPLIST_FILE = "Info.plist";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/usr/local/Cellar/qt/4.8.7_2/lib",
+						"-F/usr/local/Cellar/qt/4.8.7_2/lib",
+						"-L/usr/local/opt/openssl/lib",
+						"-L/usr/local/Cellar/qt/4.8.7_2/lib",
+						"-F/usr/local/Cellar/qt/4.8.7_2/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Debug";
+		};
+		BEC09A62E69C3553534FF35E = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "projet_v";
+				PRODUCT_NAME = "projet_v";
+			};
+			name = "Debug";
+		};
+		2C641C3335766025DD51B7BD = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "projet_v";
+			};
+			isa = "PBXBuildStyle";
+			name = "Debug";
+		};
+		D70590BEB531B51029F711BB = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "projet_v";
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/4.8.7_2/lib/QtCore.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.7_2/lib/QtCore.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.7_2/lib/QtGui.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.7_2/lib/QtGui.framework/Versions/4/Headers",
+					"/usr/local/Cellar/qt/4.8.7_2/include",
+					".",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Cellar/qt/4.8.7_2/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/4.8.7_2/lib",
+					"/usr/local/opt/openssl/lib",
+					"/usr/local/Cellar/qt/4.8.7_2/lib");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/4.8.7_2/lib",
+					"/usr/local/Cellar/qt/4.8.7_2/lib",
+					"/usr/local/Cellar/qt/4.8.7_2/lib");
+				INFOPLIST_FILE = "Info.plist";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/usr/local/Cellar/qt/4.8.7_2/lib",
+						"-F/usr/local/Cellar/qt/4.8.7_2/lib",
+						"-L/usr/local/opt/openssl/lib",
+						"-L/usr/local/Cellar/qt/4.8.7_2/lib",
+						"-F/usr/local/Cellar/qt/4.8.7_2/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Release";
+		};
+		8C7174830A1E4DCBA0332EC1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "projet_v";
+				PRODUCT_NAME = "projet_v";
+			};
+			name = "Release";
+		};
+		26DE8D2AEA4B3714B41E931F = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "projet_v";
+			};
+			isa = "PBXBuildStyle";
+			name = "Release";
+		};
+		CC82A9286117DFED018F418F = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"4B72B24813252891014BCF61",
+				"D70590BEB531B51029F711BB");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationIsName = "Release";
+		};
+		17B3380A4D6A7D415E7F2E1E = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"BEC09A62E69C3553534FF35E",
+				"8C7174830A1E4DCBA0332EC1");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationIsName = "Release";
+		};
+		91B15E841AA80083484172DE = {
+			buildStyles = (
+				"2C641C3335766025DD51B7BD",
+				"26DE8D2AEA4B3714B41E931F");
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = "05596AB53D8D521C69802C27";
+			buildConfigurationList = "CC82A9286117DFED018F418F";
+			projectDirPath = "";
+			targets = (
+				"2B3090AB3DDDE7762444F76A");
+		};
+	};
+	rootObject = "91B15E841AA80083484172DE";
+}

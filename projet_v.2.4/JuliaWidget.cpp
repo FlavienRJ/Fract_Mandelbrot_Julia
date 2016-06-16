@@ -4,7 +4,7 @@
  * constructeur du widget qui affiche l'ensemble de Julia
  *
 */
-JuliaWidget::JuliaWidget( QRect par1=QRect(0,0,750,750),MandelWidget* par2=NULL)
+JuliaWidget::JuliaWidget( QRect par1,MandelWidget* par2=NULL)
 {
     setFixedSize(((par1.width()/2)),((par1.width()/2)));    //taille du widget
     _addr_wid = par2;                                       //addresse du widget de l'ensemble de Mandelbrot

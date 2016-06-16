@@ -5,7 +5,7 @@
  *
 */
 
-MandelWidget::MandelWidget(QRect par1=QRect(0,0,1000,1000),double par2=-1.80,double par3=0.50,double par4=-1.10)
+MandelWidget::MandelWidget(QRect par1,double par2=-1.80,double par3=0.50,double par4=-1.10)
 {
     setMouseTracking(true);                                 //suivi de la souris dans le widget
     setFixedSize(((par1.width()/2)),((par1.width()/2)));    //definition de la taille du widget
